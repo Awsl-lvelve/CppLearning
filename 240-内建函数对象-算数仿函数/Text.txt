@@ -1,0 +1,32 @@
+内建函数的定义
+
+概念：STL内建了一些函数对象
+
+分类：算数仿函数、关系仿函数、逻辑仿函数
+
+用法：
+用这些仿函数所产生的对象，用法和一般函数完全相同
+使用内建函数对象，需要包含头文件#include<functional>
+
+算数仿函数：实现四则运算
+函数原型
+template<class T>T plus<T> 加法
+template<class T>T minus<T>减法
+template<class T>T multiplies<T> 乘法
+template<class T>T divides<T> 除法仿函数
+template<class T>T modulus<T> 取模仿函数
+template<class T>T negate<T>取反仿函数
+
+
+关系仿函数
+greater
+not_equal_to
+equal_to
+greater_equal
+less 
+less_equal
+
+逻辑仿函数
+logical_and
+logical_not
+logical_or

@@ -1,0 +1,12 @@
+push_back(elm)//尾插
+pop_back()//尾删
+push_front()//头插
+pop_front()//头删
+insert(pos,elm)//特定位置插入元素
+insert(pos,n,elm)//特定pos，插入n个elm
+insert(pos,beg,end)//特定pos插入，区间内元素
+clear()//清空所有元素
+erase(beg,end)//beg end区间元素删除
+erase(pos)//删除pos位置元素，返回下一个元素位置
+remove(elem)//删除所有与elm值匹配的元素
+

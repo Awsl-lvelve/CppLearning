@@ -1,0 +1,8 @@
+
+宏常量
+#define Day 7
+
+const v const修饰的变量也是常量 不能修改
+
+cpp关键字
+c++中预先保留的单词

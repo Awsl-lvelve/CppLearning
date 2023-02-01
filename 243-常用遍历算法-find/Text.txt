@@ -1,0 +1,8 @@
+常用查找算法
+
+find//查找
+find_if//条件查找
+adjacent_find//查找相邻重复
+binary_search//二分查找
+count//计数
+count_if//条件统计
