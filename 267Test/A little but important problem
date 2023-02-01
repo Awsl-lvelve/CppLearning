@@ -1,0 +1,9 @@
+In this test, I test the behaviors of multi-dimension vector.
+
+To begin with, i can use vector<vector<int>>(5), to create a 2d vector which contains 5 empty 1d vector
+
+if i did't do this, I would meet a error: can't dereference an iterator a empty project!
+
+i have searched on many forums but no one mentioned this prob
+
+thx to my roomate SanJin
